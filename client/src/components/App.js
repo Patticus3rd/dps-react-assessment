@@ -15,7 +15,7 @@ class App extends Component {
         <Flash />
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route exact path='/all_beers' component={Beers} />
+          <Route exact path='/api/all_beers' component={Beers} />
           <Route component={NoMatch} />
         </Switch>
       </Segment>
@@ -25,7 +25,7 @@ class App extends Component {
 
 const styles = {
   background: {
-    backgroundColor: 'green',
+    backgroundColor: 'black',
   },
 }
 
